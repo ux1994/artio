@@ -557,3 +557,13 @@ img.card-img-top {
     background: transparent;
     padding: 14px 0px 14px 0px;
 }
+
+.modal-title
+{
+    font-family: 'Space Grotesk';
+    color: #FFFFFF80;
+    font-size: 15px ! important;
+    margin-top: 10px;
+    font-weight: 100;
+    margin-bottom: 0px !important;
+}
