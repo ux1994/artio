@@ -12,6 +12,7 @@
 html,
 body {
     overflow-x: hidden;
+    background: linear-gradient(120.91deg, #1D202D 0%, #12131C 99.92%);
 }
 
 .nav-link a {

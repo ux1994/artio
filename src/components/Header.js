@@ -13,10 +13,10 @@ function Header() {
                     <p><a href="">Dashboard</a></p>
                 </li>
                 <li className="nav-link"><img src="images/stake.png" />
-                    <p className="grad"><a href="">Stake</a></p>
+                    <p className="grad"><NavLink to="/">Stake</NavLink></p>
                 </li>
                 <li className="nav-link"><img src="images/bond.png" />
-                    <p><a href="bond.html">Bond</a></p>
+                    <p><NavLink to="/Bond">Bond</NavLink></p>
                 </li>
                 <li className="nav-link"><img src="images/nft.png" />
                     <p><a href="">NFT</a></p>
