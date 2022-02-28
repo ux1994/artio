@@ -8,6 +8,8 @@ import {
   Stake,
   Bond,
   Header,
+  Dashboard,
+  Nft,
 } from "./components";
 import Homepage from './components/Homepage';
 ReactDOM.render(
@@ -16,6 +18,9 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/Bond" element={<Bond />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/Stake" element={<Stake />} />
+          <Route path="/Nft" element={<Nft />} />
         </Routes>
       </Router>,
   document.getElementById('root')

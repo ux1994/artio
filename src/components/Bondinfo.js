@@ -6,6 +6,9 @@ function Bondinfo() {
     return (
         <div className="col-lg-10 rightsidebg ">
                 <div className="container ">
+                <div class="col-10 desk mobileheader">
+                    <a href="#"> <h3 class="mobileheadershow">BOND  </h3></a>
+                    </div>
                     <h3 className="heading ">BOND </h3>
                     <div className="hrr "></div>
 

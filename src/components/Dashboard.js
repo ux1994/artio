@@ -3,16 +3,16 @@ import { useState } from "react";
 import { Button, CloseButton, Modal} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from "./Header";
-import Stakeinfo from "./Stakeinfo";
-function Bond()
+import Dashboardinfo from "./Dashboardinfo";
+function Dashboard()
 {
     return (
         <div className="container-fluid">
             <div className="row navbg">
                 <Header></Header>
-                <Stakeinfo></Stakeinfo>
+                <Dashboardinfo></Dashboardinfo>
             </div>
         </div>
     );
 }
-export default Bond;
+export default Dashboard;
